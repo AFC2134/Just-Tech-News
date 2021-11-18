@@ -1,0 +1,26 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "alex cooney tech news blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AFC2134/Just-Tech-News.git"
+  },
+  "author": "Alexander Cooney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AFC2134/Just-Tech-News/issues"
+  },
+  "homepage": "https://github.com/AFC2134/Just-Tech-News#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.11.0"
+  }
+}
