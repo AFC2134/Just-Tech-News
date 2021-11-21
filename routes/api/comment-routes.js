@@ -6,7 +6,8 @@ router.get('/', (req, res) => {
         attributes: [
             'id',
             'post_id',
-            'user_id'
+            'user_id',
+            'comment_text'
         ]
     })
     .then(dbPostData => res.json(dbPostData))
